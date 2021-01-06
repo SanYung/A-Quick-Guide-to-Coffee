@@ -41,13 +41,13 @@ for (let i = 0; i < nav_links.length; i++) {
 
 }
 
-const coffee_button = document.getElementsByClassName('coffee-button')[0];
-console.log(coffee_button)
+// const coffee_button = document.getElementsByClassName('coffee-button')[0];
+// console.log(coffee_button)
 
-if (coffee_button) {
-    coffee_button.addEventListener('click', function () {
+// if (coffee_button) {
+//     coffee_button.addEventListener('click', function () {
     
-        document.getElementsByClassName('navbar')[0].style.display = 'block';
-        document.getElementsByClassName('coffee-div')[0].style.display = 'block'; 
-    })
-} 
+//         document.getElementsByClassName('navbar')[0].style.display = 'block';
+//         document.getElementsByClassName('coffee-div')[0].style.display = 'block'; 
+//     })
+// } 
