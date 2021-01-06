@@ -1,10 +1,10 @@
-const page_bg = document.querySelector('.scrolling-bg');
 
 window.addEventListener('scroll', function () {
     set_background_scale()
 });
 
 function set_background_scale() {
+    const page_bg = document.querySelector('.scrolling-bg');
     let y = window.pageYOffset;
     let initialScale = 1;
     let newScale = initialScale - (y / 10000);
@@ -13,6 +13,7 @@ function set_background_scale() {
         newScale = 0.9;
     }
     page_bg.style.transform = `scale(${newScale})`;
+    
 }
 
 function scroll(scrollTo) {
@@ -27,5 +28,26 @@ for (let i = 0; i < nav_links.length; i++) {
 
     nav_link.addEventListener('click', function () {
         scroll(nav_link.dataset.scrollto);
+        let teaPic = document.getElementsByClassName("scrolling-bg")[0]
+
+
+        if (i === 2 || i ===3 ){
+            teaPic.classList.add('teaPic')
+        } else {
+            teaPic.classList.remove('teaPic')
+        }
+
     })
+
 }
+
+const coffee_button = document.getElementsByClassName('coffee-button')[0];
+console.log(coffee_button)
+
+if (coffee_button) {
+    coffee_button.addEventListener('click', function () {
+    
+        document.getElementsByClassName('navbar')[0].style.display = 'block';
+        document.getElementsByClassName('coffee-div')[0].style.display = 'block'; 
+    })
+} 
