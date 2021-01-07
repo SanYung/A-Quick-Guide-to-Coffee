@@ -19,7 +19,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scripts_header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scripts/header */ \"./src/scripts/header.js\");\n/* harmony import */ var _scripts_header__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scripts_header__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack://Javascipt-Project/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scripts_header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scripts/header */ \"./src/scripts/header.js\");\n/* harmony import */ var _scripts_header__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scripts_header__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scripts_navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scripts/navigation */ \"./src/scripts/navigation.js\");\n/* harmony import */ var _scripts_navigation__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scripts_navigation__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack://Javascipt-Project/./src/index.js?");
 
 /***/ }),
 
@@ -31,7 +31,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scr
 /*! runtime requirements:  */
 /***/ (() => {
 
-eval("\nwindow.addEventListener('scroll', function () {\n    set_background_scale()\n});\n\nfunction set_background_scale() {\n    const page_bg = document.querySelector('.scrolling-bg');\n    let y = window.pageYOffset;\n    let initialScale = 1;\n    let newScale = initialScale - (y / 10000);\n\n    if (newScale < 0.9) {\n        newScale = 0.9;\n    }\n    page_bg.style.transform = `scale(${newScale})`;\n    \n}\n\nfunction scroll(scrollTo) {\n    const element = document.querySelector(scrollTo);\n    element.scrollIntoView({ behavior: \"smooth\" });\n}\n\nconst nav_links = document.querySelectorAll('.nav-link');\n\nfor (let i = 0; i < nav_links.length; i++) {\n    let nav_link = nav_links[i];\n\n    nav_link.addEventListener('click', function () {\n        scroll(nav_link.dataset.scrollto);\n        let teaPic = document.getElementsByClassName(\"scrolling-bg\")[0]\n\n\n        if (i === 2 || i ===3 ){\n            teaPic.classList.add('teaPic')\n        } else {\n            teaPic.classList.remove('teaPic')\n        }\n\n    })\n\n}\n\n// const coffee_button = document.getElementsByClassName('coffee-button')[0];\n// console.log(coffee_button)\n\n// if (coffee_button) {\n//     coffee_button.addEventListener('click', function () {\n    \n//         document.getElementsByClassName('navbar')[0].style.display = 'block';\n//         document.getElementsByClassName('coffee-div')[0].style.display = 'block'; \n//     })\n// } \n\n\n//# sourceURL=webpack://Javascipt-Project/./src/scripts/header.js?");
+eval("\nwindow.addEventListener('scroll', function () {\n    set_background_scale()\n});\n\nfunction set_background_scale() {\n    const page_bg = document.querySelector('.scrolling-bg');\n    let y = window.pageYOffset;\n    let initialScale = 1;\n    let newScale = initialScale - (y / 10000);\n\n    if (newScale < 0.9) {\n        newScale = 0.9;\n    }\n    page_bg.style.transform = `scale(${newScale})`;\n    \n}\n\nfunction scroll(scrollTo) {\n    const element = document.querySelector(scrollTo);\n    element.scrollIntoView({ behavior: \"smooth\" });\n}\n\nconst nav_links = document.querySelectorAll('.nav-link');\n\nfor (let i = 0; i < nav_links.length; i++) {\n    let nav_link = nav_links[i];\n\n    nav_link.addEventListener('click', function () {\n        scroll(nav_link.dataset.scrollto);\n        let teaPic = document.getElementsByClassName(\"scrolling-bg\")[0]\n\n\n        if (i === 2 || i ===3 ){\n            teaPic.classList.add('teaPic')\n        } else {\n            teaPic.classList.remove('teaPic')\n        }\n    })\n}\n\n\n\n//# sourceURL=webpack://Javascipt-Project/./src/scripts/header.js?");
+
+/***/ }),
+
+/***/ "./src/scripts/navigation.js":
+/*!***********************************!*\
+  !*** ./src/scripts/navigation.js ***!
+  \***********************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements:  */
+/***/ (() => {
+
+eval("var button = document.getElementsByClassName('coffee-button')[0]\n\nbutton.addEventListener('click', () => {\n    document.getElementsByClassName('homepage')[0].style.display = \"none\"\n    document.getElementsByClassName('coffee-page')[0].style.display = \"block\"\n})\n\nvar button = document.getElementsByClassName('go-back-button')[0]\nbutton.addEventListener('click', () => {\n    document.getElementsByClassName('homepage')[0].style.display = \"block\"\n    document.getElementsByClassName('coffee-page')[0].style.display = \"none\"\n})\n\n\n//# sourceURL=webpack://Javascipt-Project/./src/scripts/navigation.js?");
 
 /***/ })
 

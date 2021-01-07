@@ -1,5 +1,5 @@
 html {
-  background: rgb(202,219,219);
+  background: rgb(244,246,241);
   text-align: center;
   font-size: 20px;
   font-weight: 200px;
@@ -117,7 +117,7 @@ section p {
 	font-size: 18px;
 	font-weight: 300;
 	text-align: center;
-	display: block;
+	/* display: block; */
 	max-width: 600px;
 	margin: 0 auto;
 }
@@ -127,14 +127,64 @@ section p {
   color: black;
 }
 
- .coffee{
-	 display: none;
-	 background-color: red;
-	 height: 1000px;
- }
 
- .coffee-div{
-	 z-index: 999;
-	 background-color: red;
-	 height: 1000px;
- }
+
+/* coffee page */
+
+.navbar-coffee{
+	top: 50px;
+}
+
+.coffee-container {
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	height: 100vh;
+	width: 100vw;
+	align-items: center;
+	margin: auto;
+	
+	
+} 
+
+.types-coffee{
+	width: 350px;
+	scroll-behavior: smooth;
+	height: 450px;
+	overflow: hidden;
+	overflow-y: scroll;
+	margin-left: 15%;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+
+#coffee-pics{
+	width: 250px;
+	height: auto;
+
+}
+
+.information-coffee{
+	margin-left: 50px;
+	border: 1px solid black;
+	background-color: rgb(243,241,238);
+}
+
+#coffee-description{
+	margin-bottom: 110px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200px;
+	font-size: 12px;
+	text-align: justify;
+	width: 240px;
+	margin-left: 34px;
+}
+
+#expresso-des{
+	margin-top: 90px;
+}
+
+.coffee-titles{
+	font-weight: bolder;
+}
