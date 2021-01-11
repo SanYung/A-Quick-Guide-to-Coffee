@@ -1,187 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Coffee Facts</title>
-        
-        <script src="./dist/main.js"></script>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Coffee Facts</title>
+            
+            <script src="./dist/main.js"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js"integrity="sha512-SuxO9djzjML6b9w9/I07IWnLnQhgyYVSpHZx0JV97kGBfTIsUYlWflyuW4ypnvhBrslz1yJ3R+S14fdCWmSmSA=="crossorigin="anonymous"></script>        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-        
-        <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js"integrity="sha512-SuxO9djzjML6b9w9/I07IWnLnQhgyYVSpHZx0JV97kGBfTIsUYlWflyuW4ypnvhBrslz1yJ3R+S14fdCWmSmSA=="crossorigin="anonymous"></script>        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" type="text/css" href="./dist/css/reset.css" />
-        <link rel="stylesheet" type="text/css" href="./dist/css/styles.css" />
-        <link rel="icon" href="./src/resources/coffee-bean.png" type="image/png" />
-    </head>
+            <link rel="stylesheet" type="text/css" href="./dist/css/reset.css" />
+            <link rel="stylesheet" type="text/css" href="./dist/css/styles.css" />
+\        </head>
 
-    <body>  
-        <div class="homepage">
-            <div class="scrolling-bg"></div>
-            <header id="home">
-                <h1>Coffee and puns</h1>
-                
-            </header>
-            <main>
-                <div>
-                    <section id="coffee-header">
-                        <h2 >Coffee</h2>
-                        <p>lalalallalalala</p>
-                        <button class="coffee-button">More info on Coffee</button>
+        <body id="homepage-body">  
+            <div class="homepage">
+                <div class="scrolling-bg"></div>
+                <header id="home">
+                    <h1>A Quick Guide to Coffee</h1>
+                    
+                </header>
+                <main>
+                    <div>
+                        <section id="coffee-header">
+                            <h2 >Coffee</h2>
+                            <p>Facts and More</p>
+                            <button class="coffee-button">Enter</button>
 
+                        </section>
+                    </div>
+                    <!-- <section id="teas-header">
+                        <h2 id=tea-font-color>Teas</h2>
+                        <p id="tea-font-color">all you need to know about teas</p>
+                        <button>More info on Teas</button>
+                    </section> -->
+
+                    <section id="about-header">
+                        <h2>About Me</h2>
+                        <p>
+                            <a href="https://github.com/SanYung"><i class="fab fa-github"></i></a> |
+                            <a href="https://www.linkedin.com/public-profile/in/sansan-kung/"><i class="fab fa-linkedin"></i></a> | 
+                            <a href="https://angel.co/u/san-yung"><i class="fab fa-angellist"></i></a> |
+                            <i class="fas fa-folder"></i>
+
+                        </p>
                     </section>
-                </div>
-                <!-- <section id="teas-header">
-                    <h2 id=tea-font-color>Teas</h2>
-                    <p id="tea-font-color">all you need to know about teas</p>
-                    <button>More info on Teas</button>
-                </section> -->
-                <section id="about-header">
-                    <h2>About Me</h2>
-                    <p >Github, linkedin, handshake</p>
-                </section>
-            </main>
-            <nav class="navbar">
-                <a class="nav-link" data-scrollto="#home">Home</a>
-                <a class="nav-link" data-scrollto="#coffee-header">Coffee</a>
-                <!-- <a class="nav-link" data-scrollto="#teas-header">Teas</a> -->
-                <a class="nav-link" data-scrollto="#about-header">About</a>
-            </nav>
-        </div>
-
+                </main>
+                <nav class="navbar">
+                    <a class="nav-link" data-scrollto="#home">Home</a>
+                    <a class="nav-link" data-scrollto="#coffee-header">Coffee</a>
+                    <!-- <a class="nav-link" data-scrollto="#teas-header">Teas</a> -->
+                    <a class="nav-link" data-scrollto="#about-header">About</a>
+                </nav>
+            </div>
+        </body>
 
         <div class="coffee-page">
-            <div class="coffee-container">
-                <nav class="navbar-coffee">
-                    <button class="go-back-button">Home</button>
-                </nav>
-                <div class="types-coffee">
-                    <ul>
-                        <li class="coffee-titles"id="expresso-des">Espresso
-                            <br></br>
-                            <img id="coffee-pics" src="./src/resources/coffee/expresso.png"  alt="">
-                            <br></br>
-                            <p id="coffee-description">The espresso, also known as a short black, is approximately 1 oz. of highly concentrated coffee. Although simple in
-                            appearance, it can be difficult to master.</p>
-                        </li>
-                        <li class="coffee-titles">Red Eye
-                            <br></br>
-                            <img id="coffee-pics" src="./src/resources/coffee/redeye.png" alt="">
-                            <br></br>
-                            <p id="coffee-description">The red eye's purpose is to add a boost of caffeine to your standard cup of coffee.</p>
-                        </li>
-                        <li class="coffee-titles">Americano
-                            <br></br>
-                            <img id="coffee-pics" src="./src/resources/coffee/americano.png" alt="">
-                            <br></br>
-                            <p id="coffee-description">Americanos are popular breakfast drinks and thought to have originated during World War II. Soldiers would add water to
-                            their coffee to extend their rations farther. The water dilutes the espresso while still maintaining a high level of
-                            caffeine.</p>
-                        </li >
-                        <li class="coffee-titles">Macchiato
-                            <br></br>
-                            <img id="coffee-pics" src="./src/resources/coffee/macchiato.png" alt="">
-                            <br></br>
-                            <p id="coffee-description">The word “macchiato” means mark or stain. This is in reference to the mark that steamed milk leaves on the surface of
-                            the espresso as it is dashed into the drink. Flavoring syrups are often added to the drink according to customer
-                            preference.</p>
-                        </li>
-                        <li class="coffee-titles">Cortado
-                            <br></br>
-                            <img id="coffee-pics" src="./src/resources/coffee/cortado.png" alt="">
-                            <br></br>
-                            <p id="coffee-description">The cortado takes the macchiato one step further by evenly balancing the espresso with warm milk in order to reduce the
-                            acidity.</p>
-                        </li>
-                        <li class="coffee-titles">Breve
-                            <br></br>
-                            <img id="coffee-pics" src="./src/resources/coffee/cortado.png" alt="">
-                            <br></br>
-                            <p id="coffee-description">The breve provides a decadent twist on the average espresso, adding steamed half-and-half to create a rich and creamy
-                            texture.</p>
+            <body class="coffee-container">
 
-                        </li>
-                        <li class="coffee-titles"> Cappuccino
-                            <br></br>
-                            <img id="coffee-pics" src="./src/resources/coffee/cappucino.png" alt="">
-                            <br></br>
-                            <p id="coffee-description">This creamy coffee drink is usually consumed at breakfast time in Italy and is loved in the United States as well. It is
-                            usually associated with indulgence and comfort because of its thick foam layer and additional flavorings that can be
-                            added to it.</p>
-                        </li>
-                        <li class="coffee-titles">Flat White
-                            <br></br>
-                            <img id="coffee-pics" src="./src/resources/coffee/flatwhite.png" alt="">
-                            <br></br>
-                            <p id="coffee-description">A flat white also originates from New Zealand and Australia and is very similar to a cappuccino but lacks the foam layer
-                            and chocolate powder. To keep the drink creamy rather than frothy, steamed milk from the bottom of the jug is used
-                            instead of from the top.</p>
-                        </li>
-                        <li class="coffee-titles">Cafe Latte</li>
-                            <br></br>
-                            <img id="coffee-pics" src="./src/resources/coffee/flatwhite.png" alt="">
-                            <br></br>
-                            <p id="coffee-description">Cafe lattes are considered an introductory coffee drink since the acidity and bitterness of coffee is cut by the amount
-                            of milk in the beverage. Flavoring syrups are often added to the latte for those who enjoy sweeter drinks.</p>
-                        <li class="coffee-titles">Mocha</li>
-                            <br></br>
-                            <img id="coffee-pics" src="./src/resources/coffee/mocha.png" alt="">
-                            <br></br>
-                            <p id="coffee-description">The mocha is considered a coffee and hot chocolate hybrid. The chocolate powder or syrup gives it a rich and creamy
-                            flavor and cuts the acidity of the espresso.</p>
-                        <li class="coffee-titles">Vienna</li>
-                            <br></br>
-                            <img id="coffee-pics" src="./src/resources/coffee/vienna.png" alt="">
-                            <br></br>
-                            <p id="coffee-description">There are a few variations on the Vienna, but one of the most common is made with two ingredients: espresso and whipped
-                            cream. The whipped cream takes the place of milk and sugar to provide a creamy texture.</p>
-                        <li class="coffee-titles">Affogato</li>
-                            <br></br>
-                            <img id="coffee-pics" src="./src/resources/coffee/affogato.png" alt="">
-                            <br></br>
-                            <p id="coffee-description">Affogatos are more for a dessert coffee than a drink you would find at a cafe, but they can add a fun twist to your
-                            menu. They are made by pouring a shot of espresso over a scoop of vanilla ice cream to create a sweet after-meal treat.</p>
-                        <li class="coffee-titles">Cafe au Lait</li>
-                            <br></br>
-                            <img id="coffee-pics" src="./src/resources/coffee/cafe au lait.png" alt="">
-                            <br></br>
-                            <p id="coffee-description">The cafe au lait is typically made with French press coffee instead of an espresso shot to bring out the different
-                            flavors in the coffee. It is then paired with scalded milk instead of steamed milk and poured at a 50/50 ratio.</p>
-                        <li class="coffee-titles">Iced Coffee</li>
-                            <br></br>
-                            <img id="coffee-pics" src="./src/resources/coffee/iced.png" alt="">
-                            <br></br>
-                            <p id="coffee-description">Iced coffees become very popular in the summertime in the United States. The recipes do have some variance, with some
-                            locations choosing to interchange milk with water in the recipe. Often, different flavoring syrups will be added per the
-                            preference of the customer.</p>
-                    </ul>
+                <div class="navbar-coffee-header">
+                    <div class="navbar-coffee-ul">
+                        <ul id="list">
+                                <li><a href="" class="go-back-button" data-scrollto="#coffee-header">Home</a></li>
+                                <li class="menu">
+                                        <input type="checkbox" id="toggle" />
+                                        <label id="show-menu" for="toggle" > AboutMe
+                                            <div ><i class="material-icons md-36 toggleBtn closeBtn">close</i></div>
+                                            <div class="btn"><a href="https://github.com/SanYung"><i class="fab fa-github"></i> <br>Github</a></div>
+                                            <div class="btn"> <a href="https://www.linkedin.com/public-profile/in/sansan-kung/"><i class="fab fa-linkedin"></i><br>Linkedin</a></div>
+                                            <div class="btn"><a href=""><i class="fas fa-folder"></i><br>Portfolio</a></div>
+                                            <div class="btn"><a href="https://angel.co/u/san-yung"><i class="fab fa-angellist"></i><br>AngeList</a></div>
+                                        </label>
+                                    </li>
+                            </ul>      
+                    </div>    
                 </div>
-    
-                <div class="information-coffee">
-                    <div>
-                        <canvas id="chart-latte" width="400" height="400"></canvas>
-                        <img>
-                    </div>
-                    
-                </div>
+
+                <section class="banner"></section>
+
+                <section id="coffee-information-section">
+                        <div class="types-coffee">
+                            <ul>
+                                <li class="coffee-titles"id="expresso-des">Espresso
+                                    <br></br>
+
+                                    <div id="bubble-container">
+                                        <div class="image-container">
+                                            <img onClick="espresso_fxn()" id="coffee-pics" class="espresso-pic" src="./src/resources/icons/espresso-icon.png" alt=""> 
+                                        </div>
+                                        <div class="speechbubble" id="espresso-bubble">espresso patronum!</div>
+                                        <div class="click-me" id="espresso-clickme">Click Me!</div>
+                                    </div>
                 
-            </div>
+                                    <br></br>
+                                    <p id="coffee-description">The espresso, also known as a short black, is approximately 1 oz. of highly concentrated coffee.</p>
+                                </li>
+
+
+                                <li class="coffee-titles">Red Eye
+                                    <br></br>
+                                    <div id="bubble-container">
+                                        <div class="image-container">
+                                            <img onClick="redeye_fxn()"  id="coffee-pics" class="redeye-pic"src="./src/resources/icons/redeye-icon.png" alt="">
+                                        </div>
+                                        <div class="speechbubble" id="redeyebubble">Brew can do it!</div>
+                                        <div class="click-me" id="redeye-clickme">Click Me!</div>
+                                        
+                                    </div>
+                                    
+                                    <br></br>
+                                    <p id="coffee-description"  >For those workday mondays, Red Eye is a shot of espresso combined with normal drop coffee. </p>
+                                </li>
+
+                                <li class="coffee-titles">Americano
+                                    <br></br>
+                                    <div id="bubble-container">
+                                        <div class="image-container">
+                                            <img onClick="americano_fxn()" id="coffee-pics" class="americano-pic" src="./src/resources/icons/americano-icon.png" alt="">
+                                        </div>
+                                        <div class="speechbubble" id="americano-bubble">just brew it</div>
+                                        <div class="click-me" id="americano-clickme">Click Me!</div>
+                                    </div>
+                                    <br></br>
+                                    <p id="coffee-description">Americanos are popular breakfast drinks and thought to have originated during World War II. Although Americanos is espresso diluted with water, they still maintain a high caffeine level.</p>
+                                </li >
+
+
+                                <li class="coffee-titles">Macchiato
+                                    <br></br>
+                                    <div id="bubble-container">
+                                        <div class="image-container">
+                                            <img onClick="macchiato_fxn()"  id="coffee-pics" class="macchiato-pic" src="./src/resources/icons/macchiato.png" alt="">
+                                        </div>
+                                        <div class="speechbubble" id="macchiato-bubble">java nice day!</div>
+                                        <div class="click-me" id="macchiato-clickme">Click Me!</div>
+                                    </div>
+                                    <br></br>
+                                    <p id="coffee-description">The word “macchiato” means mark or stain. This is in reference to the mark that steamed milk leaves on the surface of
+                                    the espresso as it is dashed into the drink. Comes in all sort of flavors!</p>
+                                </li>
+
+                                <li class="coffee-titles">Cortado
+                                    <br></br>
+                                    <div id="bubble-container">
+                                        <div class="image-container">
+                                            <img onClick="cortado_fxn()" id="coffee-pics" class="cortado-pic" src="./src/resources/icons/cortado.png" alt="">
+                                        </div>
+                                        <div class="speechbubble" id="cortado-bubble">Who forgot to clean the coffee maker? Come on, spill the beans</div>
+                                        <div class="click-me" id="cortado-clickme">Click Me!</div>
+                                    </div>
+                                    <br></br>
+                                    <p id="coffee-description" >Cortados are similiar to Macchiatos except they add warm milk to reduce acidity.</p>
+                                </li>
+
+                                <li class="coffee-titles">Breve
+                                    <br></br>
+                                    <div id="bubble-container">
+                                        <div class="image-container">
+                                            <img onClick="breve_fxn()" id="coffee-pics" class="breve-pic" src="./src/resources/icons/breve3.png" alt="">
+                                        </div>
+                                        <div class="speechbubble" id="breve-bubble">Some people lift weights. I prefer to French press.</div>
+                                        <div class="click-me" id="breve-clickme">Click Me!</div>
+                                    </div>
+                                    <br></br>
+                                    <p id="coffee-description">The breve provides a decadent twist on the average espresso, adding steamed half-and-half to create a rich and creamy texture.</p>
+                                </li>
+
+                                <li class="coffee-titles"> Cappuccino
+                                    <br></br>
+                                    <div id="bubble-container">
+                                        <div class="image-container">
+                                            <img onClick="cappuccino_fxn()" id="coffee-pics" class="cappacino-pic" src="./src/resources/icons/cappacino.png" alt="">
+                                        </div>
+                                        <div class="speechbubble" id="cappacino-bubble">And what's its favorite Bob Marley song? Don't Worry, Be Frappé.</div>
+                                        <div class="click-me" id="cappacino-clickme">Click Me!</div>
+                                    </div>
+                                    <br></br>
+                                    <p id="coffee-description">This one is a crowd pleaser!  Cappaccino's are creamy and available in all sorts of flavors.</p>
+                                </li>
+                                <li class="coffee-titles">Flat White
+                                    <br></br>
+                                    <div id="bubble-container">
+                                        <div class="image-container">
+                                            <img onClick="flatwhite_fxn()" id="coffee-pics" class="flatwhite-pic" src="./src/resources/icons/flat white.png" alt="">
+                                        </div>
+                                        <div class="speechbubble" id="flatwhite-bubble">when you feel depresso, have an espresso!</div>
+                                        <div class="click-me" id="flatwhite-clickme">Click Me!</div>
+                                    </div>
+                                    <br></br>
+                                    <br></br>
+                                    <p id="coffee-description">Flat white originates from New Zealand and Australia and is very similar to a cappuccino but lacks the foam layer
+                                    and chocolate powder.</p>
+                                </li>
+
+                                <li class="coffee-titles">Cafe Latte
+                                    <br></br>
+                                    <div id="bubble-container">
+                                        <div class="image-container">
+                                            <img onClick="latte_fxn()"  id="coffee-pics" class="latte-pic" src="./src/resources/icons/cafelatte.png" alt="">
+                                        </div>
+                                        <div class="speechbubble" id="latte-bubble">better latte than never!</div>
+                                        <div class="click-me" id="latte-clickme">Click Me!</div>
+                                    </div>
+                                    <br></br>
+                                    <p id="coffee-description">Cafe lattes are mostly made up of milk/cream and come in all sorts of flavors.</p>
+                                </li>
+
+                                <li class="coffee-titles">Mocha
+                                    <div id="bubble-container">
+                                        <div class="image-container">
+                                            <img onClick="mocha_fxn()"  id="coffee-pics" class="mocha-pic" src="./src/resources/icons/mocha.png" alt="">
+                                        </div>
+                                        <div class="speechbubble" id="mocha-bubble">you're mocha me crazy! </div>
+                                        <div class="click-me" id="mocha-clickme">Click Me!</div>
+                                    </div>
+                                    <br></br>
+                                    <p id="coffee-description">The mocha is considered a coffee and hot chocolate hybrid. The chocolate powder or syrup gives it a rich and creamy
+                                    flavor and cuts the acidity of the espresso.</p>
+                                </li>
+
+
+                                <li class="coffee-titles">Vienna
+                                    <br></br>
+                                    <div id="bubble-container">
+                                        <div class="image-container">
+                                            <img onClick="vienna_fxn()"  id="coffee-pics" class="vienna-pic" src="./src/resources/icons/vienna.png" alt="">
+                                        </div>
+                                        <div class="speechbubble" id="vienna-bubble">What’s it called when you steal someone’s coffee? Mugging.</div>
+                                        <div class="click-me" id="vienna-clickme">Click Me!</div>
+                                    </div>
+                                    <br></br>
+                                    <p id="coffee-description">The vienna originated from.. you guessed it, vienna!  It's made up of espresso and whipped cream. </p>
+                                </li>
+
+                                <li class="coffee-titles">Affogato
+                                    <br></br>
+                                    <div id="bubble-container">
+                                        <div class="image-container">
+                                            <img onClick="affogato_fxn()" id="coffee-pics" class="affogato-pic"  src="./src/resources/icons/affogato.png" alt="">
+                                        </div>
+                                        <div class="speechbubble" id="affogato-bubble">Affogato to tell you something: You’re the greatest.</div>
+                                        <div class="click-me" id="affogato-clickme">Click Me!</div>
+                                    </div>
+                                    <br></br>
+                                    <p id="coffee-description">Affogatos are made by pouring a shot of espresso over vanilla ice cream - yum!</p>
+                                </li>
+
+
+                                <li class="coffee-titles">Cafe au Lait
+                                    <br></br>
+                                    <div id="bubble-container">
+                                        <div class="image-container">
+                                            <img onClick="cafeaulait_fxn()"  id="coffee-pics" class="cafeaulait-pic"  src="./src/resources/icons/cafeaulait.png" alt="">
+                                        </div>
+                                        <div class="speechbubble" id="cafeaulait-bubble">If this is decaf, we’re gonna have a latte problems.</div>
+                                        <div class="click-me" id="cafeaulait-clickme">Click Me!</div>
+                                    </div>
+                                    <br></br>
+                                    <p id="coffee-description">The cafe au lait is typically made with French press coffee instead of an espresso shot to bring out the different
+                                    flavors in the coffee. It is then paired with scalded milk instead of steamed milk and poured at a 50/50 ratio.</p>
+                                </li>
+                                
+                                <li class="coffee-titles">Cold Brew
+                                    <br></br>
+                                    <div id="bubble-container">
+                                       <div class="image-container">
+                                           <img onClick="coldbrew_fxn()"  id="coffee-pics" class="coldbrew-pic" src="./src/resources/icons/icedcofee.png" alt="">
+                                       </div>
+                                        <div class="speechbubble" id="coldbrew-bubble">You spilled your entire cup of coffee? What's sumatra with you?</div>
+                                        <div class="click-me" id="coldbrew-clickme">Click Me!</div>
+                                    </div>
+                                    <br></br>
+                                    <p id="coffee-description">Cold brews are made by soaking coffee beans for multple hours and provides a smooth coffee drink!</p>
+                                </li>
+                            </ul>
+                        </div> 
+
+                        <div class="information-coffee">
+                            <div id="expresso-div" > 
+                                <label class="chart-label">Espresso</label>
+                                <canvas class="chart" id="chart-expresso" ></canvas>
+                            </div>
+
+                            <div id="redeye-div">
+                                <label class="chart-label">Red Eye</label>
+                                <canvas class="chart" id="chart-redeye"></canvas>
+                            </div>
+                                
+                            <div id="americano-div">
+                                <label class="chart-label">Americano</label>
+                                <canvas class="chart" id="chart-americano"></canvas>
+                            </div>
+
+                            <div id="macchiato-div">
+                                <label class="chart-label">Macchiato</label>
+                                <canvas class="chart" id="chart-macchiato"></canvas>
+                            </div>
+
+                            <div id="cortado-div">
+                                <label class="chart-label">Cortado</label>
+                                <canvas class="chart" id="chart-cortado"></canvas>
+                            </div>
+
+                            <div id="breve-div">
+                                <label class="chart-label">Breve</label>
+                                <canvas class="chart" id="chart-breve"></canvas>
+                            </div>
+
+                            <div id="cappuccino-div">
+                                <label class="chart-label">Cappuccino</label>
+                                <canvas class="chart" id="chart-cappuccino"></canvas>
+                            </div>
+
+
+                            <div id="flatwhite-div">
+                                <label class="chart-label">Flat White</label>
+                                <canvas class="chart" id="chart-flatwhite"></canvas>
+                            </div>
+
+                            <div id="cafelatte-div">
+                                <label class="chart-label">Cafe Latte</label>
+                                <canvas class="chart" id="chart-cafelatte"></canvas>
+                            </div>
+
+                            <div id="mocha-div">
+                                <label class="chart-label">Mocha</label>
+                                <canvas class="chart" id="chart-mocha"></canvas>
+                            </div>
+
+                            <div id="vienna-div">
+                                <label class="chart-label">Vienna</label>
+                                <canvas class="chart" id="chart-vienna"></canvas>
+                            </div>
+
+                            <div id="afogato-div">
+                                <label class="chart-label">Afogato</label>
+                                <canvas class="chart" id="chart-afogato"></canvas>
+                            </div>
+
+                            <div id="cafeaulait-div">
+                                <label class="chart-label">Cafe Au Lait</label>
+                                <canvas class="chart" id="chart-cafeaulait"></canvas>
+                            </div>
+
+                            <div id="coldbrew-div">
+                                <label class="chart-label">Cold Brew</label>
+                                <canvas class="chart" id="chart-coldbrew"></canvas>
+                            </div>
+                        </div>
+
+
+                        <div>
+                            <nav id="nav-link-coffee-info-container">
+                                <div id="nav-container-coffee-types">
+                                    <a class="nav-link-coffee-info"><i id="espresso-button" class="fas fa-circle"></i></a>
+                                    <span id="popup" class="espresso-popup">Espresso</span>
+                                </div>
+                                <div id="nav-container-coffee-types">
+                                    <a class="nav-link-coffee-info"><i id="redeye-button" class="fas fa-circle"></i></a>
+                                    <span id="popup" class="redeye-popup">Red Eye</span>
+                                </div>
+                                <div id="nav-container-coffee-types">
+                                    <a class="nav-link-coffee-info"><i id="americano-button" class="fas fa-circle"></i></a>
+                                    <span id="popup" class="americano-popup">Americano</span>
+                                </div>
+                                <div id="nav-container-coffee-types">
+                                    <a class="nav-link-coffee-info"><i id="macchiato-button" class="fas fa-circle"></i></a>
+                                    <span id="popup" class="macchiato-popup">Macchiato</span>
+                                </div>
+                                <div id="nav-container-coffee-types">
+                                    <a class="nav-link-coffee-info"><i id="cortado-button" class="fas fa-circle"></i></a>
+                                    <span id="popup" class="cortado-popup">Cortado</span>
+                                </div>
+                                <div id="nav-container-coffee-types">
+                                    <a class="nav-link-coffee-info"><i id="breve-button" class="fas fa-circle"></i></a>
+                                    <span id="popup" class="breve-popup">Breve</span>
+                                </div>
+                                <div id="nav-container-coffee-types">
+                                    <a class="nav-link-coffee-info"><i id="cappucino-button" class="fas fa-circle"></i></a>
+                                    <span id="popup" class="cappucino-popup">Cappucino</span>
+                                </div>
+                                <div id="nav-container-coffee-types">
+                                    <a class="nav-link-coffee-info"><i id="flatwhite-button" class="fas fa-circle"></i></a>
+                                    <span id="popup" class="flatwhite-popup">Flat White</span>
+                                </div>
+                                <div id="nav-container-coffee-types">
+                                    <a class="nav-link-coffee-info"><i id="cafelatte-button" class="fas fa-circle"></i></a>
+                                    <span id="popup" class="cafelatte-popup">Cafe Latte</span>
+                                </div>
+                                <div id="nav-container-coffee-types">
+                                    <a class="nav-link-coffee-info"><i id="mocha-button" class="fas fa-circle"></i></a>
+                                    <span id="popup" class="mocha-popup">Mocha</span>
+                                </div>
+                                <div id="nav-container-coffee-types">
+                                    <a class="nav-link-coffee-info"><i id="vienna-button" class="fas fa-circle"></i></a>
+                                    <span id="popup" class="vienna-popup">Vienna</span>
+                                </div>
+                                <div id="nav-container-coffee-types">
+                                    <a class="nav-link-coffee-info"><i id="affogato-button" class="fas fa-circle"></i></a>
+                                    <span id="popup" class="affogato-popup">Affogato</span>
+                                </div>
+                                <div id="nav-container-coffee-types">
+                                    <a class="nav-link-coffee-info"><i id="cafeaulait-button" class="fas fa-circle"></i></a>
+                                    <span id="popup" class="cafeaulait-popup">Cafe Au Lait</span>
+                                </div>
+                                <div id="nav-container-coffee-types">
+                                    <a class="nav-link-coffee-info"><i id="coldbrew-button" class="fas fa-circle"></i></a>
+                                    <span id="popup" class="coldbrew-popup">Cold Brew</span>
+                                </div>
+                            </nav>
+                        </div>
+                </section>
+
+                
+            </body>
         </div>
         
-<script src='./src/scripts/header.js'></script>
-<script src='./src/scripts/navigation.js'></script>
-<script src='./src/scripts/fraction.js'></script>
-    </body>
-
-
-
+        <script src='./src/scripts/header.js'></script>
+        <script src='./src/scripts/navigation.js'></script>
+        <script src='./src/scripts/fraction.js'></script>
+        <script src='./src/scripts/speech_bubble.js'></script>
+ 
 </html>
 

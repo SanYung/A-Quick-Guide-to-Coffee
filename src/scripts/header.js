@@ -31,11 +31,11 @@ for (let i = 0; i < nav_links.length; i++) {
         let teaPic = document.getElementsByClassName("scrolling-bg")[0]
 
 
-        if (i === 2 || i ===3 ){
-            teaPic.classList.add('teaPic')
-        } else {
-            teaPic.classList.remove('teaPic')
-        }
+        // if (i === 2 || i ===3 ){
+        //     teaPic.classList.add('teaPic')
+        // } else {
+        //     teaPic.classList.remove('teaPic')
+        // }
     })
 }
 
