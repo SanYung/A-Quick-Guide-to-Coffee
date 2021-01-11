@@ -440,17 +440,16 @@ var n = new Chart(document.getElementById('chart-coldbrew'), {
 
 
 document.getElementById('espresso-button').addEventListener('click', function () {
-    document.getElementById('espresso-button').classList.add('icn-spinner')
     document.getElementsByClassName('types-coffee')[0].scrollTo(0, 0)
 });
 
-document.getElementById('espresso-button').addEventListener('onmouseover', function () {
-    document.getElementById('popup').style.display = 'block';
-});
+// document.getElementById('espresso-button').addEventListener('onmouseover', function () {
+//     document.getElementById('popup').style.display = 'block';
+// });
 
-document.getElementById('espresso-button').addEventListener('onmouseout',function () {
-    document.getElementById('popup').style.display = 'none';
-});
+// document.getElementById('espresso-button').addEventListener('onmouseout',function () {
+//     document.getElementById('popup').style.display = 'none';
+// });
 
 
 document.getElementById('redeye-button').addEventListener('click', function () {
