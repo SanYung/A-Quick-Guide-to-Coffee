@@ -1,20 +1,66 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
 }
 
 .chart-label{
-	margin-right: 10px;
+	/* margin-right: 10px; */
 	margin-top: 50px;
-	font-size:40px;
+  font-size:50px;
 }
 
 
 .chartdiv {
   width: 90%;
-  height: 400px;
+  height: 480px;
   margin-top: 10px;
   margin-left:70px;
 	/* display: none; */
-
 }
 
+.expresso-chart{
+  display: block;
+}
+
+.redeye-chart{
+  display: block;
+}
+
+.americano-chart{
+  display: block;
+}
+
+.macchiato-chart{
+  display: block;
+}
+
+.cappuccino-chart{
+  display: block;
+}
+
+.flatwhite-chart{
+  display: block;
+}
+
+.cafelatte-chart{
+  display: block;
+}
+
+.mocha-chart{
+  display: block;
+}
+
+.vienna-chart{
+  display: block;
+}
+
+.affogato-chart{
+  display: block;
+}
+
+.cafeaulait-chart{
+  display: block;
+}
+
+.coldbrew-chart{
+  display: block;
+}
