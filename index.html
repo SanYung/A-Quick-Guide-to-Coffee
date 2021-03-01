@@ -13,7 +13,7 @@
             <script src="https://cdn.amcharts.com/lib/4/themes/moonrisekingdom.js"></script>
             <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
         
-
+            <link rel="shortcut icon" type="image/x-icon" href="./src/resources/icons/7.png">
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
@@ -32,47 +32,41 @@
             <link rel="stylesheet" type="text/css" href="./dist/css/cardflip.css" />
             <link rel="stylesheet" type="text/css" href="./dist/css/nutrition.css" />
             <link rel="stylesheet" type="text/css" href="./dist/css/instructions.css" />
+            <link rel="stylesheet" type="text/css" href="./dist/css/coffecup.css" />
+
          </head>
 
       
             <body class="main-container">
                 
                 <div class="page-header">
-                        <h1>A Quick Guide to Coffee by San Yung</h1>
+                        <h1>A Quick Guide to Coffee </h1>
                         <a href="https://github.com/SanYung" target="_blank"><i class="fab fa-github"></i></a> 
                         <a href="https://www.linkedin.com/public-profile/in/sansan-kung/" target="_blank"><i class="fab fa-linkedin"></i></a> 
                         <a href="https://angel.co/u/san-yung" target="_blank"><i class="fab fa-angellist"></i></a> 
-                    
                 </div>
-                    
+
                 <section id="coffee-information-section">
                         <div class="types-coffee">
                             <ul>
                                 <li class="coffee-titles espresso-card">
-                                   
-                                        <div class="card-front ">Espresso
-                                            <img onClick="espresso_fxn()" id="coffee-pics" class="espresso-pic" src="./src/resources/icons/espresso-icon.png" alt=""> 
-                                        </div>
-                                        <div class="card-back">
-                                            Espresso is a drink of small volume (25-30 ml or 1floz) with a rich, concentrated flavor, sharp aroma and slight bitterness.  The drink is non-transparent and thick in consistency, and it is usually served in a small cup with a distinctive thick foam on top, also known as 'crema'. <br></br>
-                                            Made with an espresso-machine by focing very hot water under high pressure through finely ground fresh coffee, espresso is the foundation for many other coffee drinks. 
-                                        </div>
-                                        <!-- <div class="speechbubble" id="espresso-bubble">espresso patronum!</div>
-                                        <div class="click-me" id="espresso-clickme">Click Me!</div> -->
+                                    <div class="card-front ">Espresso
+                                        <img id="coffee-pics" src="./src/resources/icons/espresso-icon.png" alt="">                                             
+                                    </div>
+                                    <div class="card-back">
+                                        Espresso is a drink of small volume (25-30 ml or 1floz) with a rich, concentrated flavor, sharp aroma and slight bitterness.  The drink is non-transparent and thick in consistency, and it is usually served in a small cup with a distinctive thick foam on top, also known as 'crema'. <br></br>
+                                        Made with an espresso-machine by focing very hot water under high pressure through finely ground fresh coffee, espresso is the foundation for many other coffee drinks. 
+                                    </div>
                                 </li>
-
 
                                 <li class="coffee-titles redeye-card">
                                     <div class="card-front">Red Eye
-                                        <img onClick="redeye_fxn()"  id="coffee-pics" class="redeye-pic"src="./src/resources/icons/redeye-icon.png" alt="">
+                                        <img id="coffee-pics" src="./src/resources/icons/redeye-icon.png" alt="">
                                     </div>
                                     <div class="card-back">
                                         Red Eye is a drink that consists of brewed coffee topped off with a shot of espresso. Before double shots became the
                                         standard espresso pull, a Red Eye usually contained one shot while a “Black Eye” had two shots.
                                     </div>
-                                        <!-- <div class="speechbubble" id="redeyebubble">Brew can do it!</div>
-                                        <div class="click-me" id="redeye-clickme">Click Me!</div>
-                                         -->
                                 </li>
 
                                 <li class="coffee-titles americano-card">
@@ -84,8 +78,6 @@
                                         Traditionally Americano is made with a classical or double espresso and a considerable amount of hot water.  The sequence of adding water or coffee to a cup is not essential, although if coffee is added to a water, then the drink retains a distinctive foam of espresso
                                         
                                     </div>
-                                        <!-- <div class="speechbubble" id="americano-bubble">just brew it</div>
-                                        <div class="click-me" id="americano-clickme">Click Me!</div> -->
                                 </li >
 
 
@@ -93,8 +85,6 @@
                                     <div class="card-front">Late Macchiato
                                         <img onClick="macchiato_fxn()"  id="coffee-pics" class="macchiato-pic" src="./src/resources/icons/macchiato.png" alt="">
                                     </div>
-                                        <!-- <div class="speechbubble" id="macchiato-bubble">java nice day!</div>
-                                        <div class="click-me" id="macchiato-clickme">Click Me!</div> -->
                                     <div class="card-back">
                                         <p>Latte Macchiato is a variation of a classical Latte where espresso is added to hot milk.  It is prepapred as a layered drink with espresso carefully poured so that it forms a layer ebtween the denser liquid milk below and the lighter milk foam above <br></br>
                                             The presence of layers, a huge quantity of milk froth and a stain of milk (Ital.'Macchiato') on foam after pouring coffee are the main differences of this drink from a Cafe Latte</p>
@@ -107,8 +97,6 @@
                                     <div class="card-front">Cappuccino
                                         <img onClick="cappuccino_fxn()" id="coffee-pics" class="cappacino-pic" src="./src/resources/icons/cappacino.png" alt="">
                                     </div>
-                                        <!-- <div class="speechbubble" id="cappacino-bubble">And what's its favorite Bob Marley song? Don't Worry, Be Frappé.</div>
-                                        <div class="click-me" id="cappacino-clickme">Click Me!</div> -->
                                     <div class="card-back">
                                         Cappucino is, primarily, an exquisite balance of flavoes between the bitterness of espresso, the sweetness of hot milk and the sticky consistency of steamed-milk foam.
                                         <br></br>
@@ -122,9 +110,6 @@
                                     <div class="card-front">Flat White
                                         <img onClick="flatwhite_fxn()" id="coffee-pics" class="flatwhite-pic" src="./src/resources/icons/flat white.png" alt="">
                                     </div>
-
-                                        <!-- <div class="speechbubble" id="flatwhite-bubble">when you feel depresso, have an espresso!</div>
-                                        <div class="click-me" id="flatwhite-clickme">Click Me!</div> -->
                                     <div class="card-back">
                                         A comparatively new beverage created by baristas in Australia and New Zealand.  The sense milk "microfoam" from the bottom of the pitcher is assed to a double shot of espresso and served in a small ceramic cup.
                                         The preparation is similar to that of Latte but the result is not as "milky", and the coffee taste comes through a lot more strongly.
@@ -137,8 +122,6 @@
                                     <div class="card-front">Cafe Latte
                                         <img onClick="latte_fxn()"  id="coffee-pics" class="latte-pic" src="./src/resources/icons/cafelatte.png" alt="">
                                     </div>
-                                        <!-- <div class="speechbubble" id="latte-bubble">better latte than never!</div>
-                                        <div class="click-me" id="latte-clickme">Click Me!</div> -->
                                     <div class="card-back">
                                         Latte, also known as Cafe Latte, simply mean "coffee with milk" in Italian.  it is a classical combination of one shot of espresso and steamed milk.  
                                         The temperature of the milk is partly justified by the fact that Latte is a "fast food" dirnk and people have it on the go
@@ -151,8 +134,6 @@
                                     <div class="card-front"> Mocha
                                         <img onClick="mocha_fxn()"  id="coffee-pics" class="mocha-pic" src="./src/resources/icons/mocha.png" alt="">
                                     </div>
-                                        <!-- <div class="speechbubble" id="mocha-bubble">you're mocha me crazy! </div>
-                                        <div class="click-me" id="mocha-clickme">Click Me!</div> -->
                                     <div class="card-back">
                                         Caffe Mocha (in North America also known as "Moccho") was created in response to general disatisfaction of chocolate fans with Cafe Latte.
                                         <br></br>
@@ -167,8 +148,6 @@
                                     <div class="card-front">
                                         Vienna <img onClick="vienna_fxn()"  id="coffee-pics"  src="./src/resources/icons/vienna.png" alt="">
                                     </div>
-                                        <!-- <div class="speechbubble" id="vienna-bubble">What’s it called when you steal someone’s coffee? Mugging.</div>
-                                        <div class="click-me" id="vienna-clickme">Click Me!</div> -->
                                     <div class="card-back">
                                         Vienna Coffee has has an enormous popularity all over the world, and its recipe has been adapted and prepared in hundreds of ways.
                                         <br></br>
@@ -182,8 +161,6 @@
                                     <div class="card-front">Affogato
                                         <img onClick="affogato_fxn()" id="coffee-pics" class="affogato-pic"  src="./src/resources/icons/affogato.png" alt="">
                                     </div>
-                                        <!-- <div class="speechbubble" id="affogato-bubble">Affogato to tell you something: You’re the greatest.</div>
-                                        <div class="click-me" id="affogato-clickme">Click Me!</div> -->
                                     <div class="card-back">
                                         An affogato or more traditionally known as "affogato al caffe" (Italian for "drowned") is an Italian coffee-based
                                         dessert. It usually takes the form of a scoop of fior di latte or vanilla gelato or ice cream topped or "drowned" with a
@@ -198,9 +175,6 @@
                                     <div class="card-front">Cafe au Lait
                                         <img onClick="cafeaulait_fxn()"  id="coffee-pics" class="cafeaulait-pic"  src="./src/resources/icons/cafeaulait.png" alt="">
                                     </div>
-                                        <!-- <div class="speechbubble" id="cafeaulait-bubble">If this is decaf, we’re gonna have a latte problems.</div>
-                                        <div class="click-me" id="cafeaulait-clickme">Click Me!</div> -->
-
                                     <div class="card-back">
                                         The cafe au lait is typically made with French press coffee instead of an espresso shot to bring out the different
                                         flavors in the coffee. It is then paired with scalded milk instead of steamed milk and poured at a 50/50 ratio.
@@ -211,9 +185,6 @@
                                     <div class="card-front">Cold Brew
                                         <img onClick="coldbrew_fxn()"  id="coffee-pics" class="coldbrew-pic" src="./src/resources/icons/icedcofee.png" alt="">
                                     </div>
-                                        <!-- <div class="speechbubble" id="coldbrew-bubble">You spilled your entire cup of coffee? What's sumatra with you?</div>
-                                        <div class="click-me" id="coldbrew-clickme">Click Me!</div> -->
-
                                     <div class="card-back">
                                         Cold brewing, also called cold water extraction or cold pressing, is the process of steeping coffee grounds in water at
                                         cool temperatures for an extended period. Coarse-ground beans are soaked in water for about 12 to 24 hours.
@@ -226,221 +197,548 @@
                             <div id="expresso-div" > 
                                 <label class="chart-label">Espresso</label>
                                 <div class="buttons-container">  
-                                    <button class="button btn1">Content Chart</button>
-                                    <button class="button btn2">Recipe Instructions</button>
-                                    <button class="button btn3">Nutritional Facts</button>
+                                    <button class="button chartbtn1">Chart</button>
+                                    <button class="button recipebtn1">Recipe</button>
+                                    <button class="button factsbtn1">Nutritional Facts</button>
                                 </div>
                               
                                 <div class="espresso-chart chartdiv" id="chart-expresso" ></div>
                                 <div class="espresso-recipe recipe">
-                                    <ul class="recipelist">
-                                        <li>Grind freshly roasted coffee beans (14 to 22 grams in the holder)</li>
-                                        <li>Form a dense and smooth coffee tablet. Remove coffee particles from the surface of the holder and set it in the expresso machine</li>
-                                        <li>Start the brewing process and pour 25 ml (1 fl oz) of the drink in each cup.  The pouring time depends on various factors (~18 seconds)</li>
-                                        <li>Serve the expresso in a small, preheated (but dry) cup with a glass of water</li>
-                                    </ul>
+                                    <div class="slider">
+                                        <a href="#slide-1">1</a>
+                                        <a href="#slide-2">2</a>
+                                        <a href="#slide-3">3</a>
+                                        <a href="#slide-4">4</a>
+                                        <div class="slides recipelist">
+                                            <div id="slide-1">Grind freshly roasted coffee beans (14 to 22 grams in the holder)</div>
+                                            <div id="slide-2">Form a dense and smooth coffee tablet. Remove coffee particles from the surface of the holder and set it in the expressomachine.</div>
+                                            <div id="slide-3">Start the brewing process and pour 25 ml (1 fl oz) of the drink in each cup. The pouring time depends on various factors(~18 seconds)</div>
+                                            <div id="slide-4">Serve the expresso in a small, preheated (but dry) cup with a glass of water</div>
+                                        </div>
+                                    </div>
+                                    <button class="button btn3"><a target="_blank" href="https://www.youtube.com/watch?v=tORaKKkuC_g">Video Tutorial</a></button>
                                 </div>
-                                <div class="expresso-nutrition nutrition">
-                                    <ul>
-                                        <li>Volume </li>
-                                        <li>Caffiene</li>
-                                        <li>Calories</li>
-                                        <li>Proteins</li>
-                                        <li>Fats</li>
-                                        <li>Carbohydrates</li>
-                                    </ul>
-                                    <ul>
-                                        <li>30 L</li>
-                                        <li>75 mg</li>
-                                        <li>0 kcal</li>
-                                        <li>0 g</li>
-                                        <li>0 g</li>
-                                        <li>0 g</li>
-                                    </ul>
+                                <div class="espresso-nutrition nutrition">
+                                    <div class="nutrtion-list">
+                                        <div class="nl1">
+                                            <li>Volume</li>
+                                            <li>Caffiene</li>
+                                            <li>Calories</li>
+                                            <li>Proteins</li>
+                                            <li>Fats</li>
+                                            <li>Carbohydrates</li>
+                                        </div>
+                                        <div class="nl2">
+                                            <li>30 mL</li>
+                                            <li>75 mg</li>
+                                            <li>0 kcal</li>
+                                            <li>0 g</li>
+                                            <li>0 g</li>
+                                            <li>0 g</li>
+                                        </div>
+                                    </div>
                                 </div>
-                                <button class="button btn3">Click me for video tutorial</button>
+                                
 
                             </div>
 
                             <div id="redeye-div">
                                 <label class="chart-label">Red Eye</label>
                                 <div class="buttons-container">
-                                    <button class="button btn1">Content Chart</button>
-                                    <button class="button btn2">Recipe Instructions</button>
-                                    <button class="button btn3">Nutritional Facts</button>
+                                    <button class="button chartbtn2">Chart</button>
+                                    <button class="button recipebtn2">Recipe</button>
+                                    <button class="button factsbtn2">Nutritional Facts</button>
                                 </div>
                                 <div class="redeye-chart chartdiv" id="chart-redeye"></div>
                                 <div class="redeye-recipe recipe">
-                                    <ul class="recipelist">
-                                        <li>Grind freshly roasted coffee beans (14 to 22 grams in the holder)</li>
-                                    </ul>
+                                <div class="slider">
+                                
+                                    <a href="#slide-5">1</a>
+                                    <a href="#slide-6">2</a>
+                                    <a href="#slide-7">3</a>
+                                    <div class="slides recipelist">
+                                        <div id="slide-5">Prepare espresso (see "Espresso")</div>
+                                        <div id="slide-6">Prepare a cup of coffee.</div>
+                                        <div id="slide-7">Combine</div>
+                                    </div>
+                                </div>
+                                <!-- <button class="button btn3">Video Tutorial</button> -->
                                 </div>
                                 <div class="redeye-nutrition nutrition">
-                                    <ul>
-                                        <li>Volume </li>
-                                        <li>Caffiene</li>
-                                        <li>Calories</li>
-                                        <li>Proteins</li>
-                                        <li>Fats</li>
-                                        <li>Carbohydrates</li>
-                                    </ul>
-                                    <ul>
-                                        <li>30 L</li>
-                                        <li>75 mg</li>
-                                        <li>0 kcal</li>
-                                        <li>0 g</li>
-                                        <li>0 g</li>
-                                        <li>0 g</li>
-                                    </ul>
+                                    <div class="nutrtion-list">
+                                        <div class="nl1">
+                                            <li>Volume </li>
+                                            <li>Caffiene</li>
+                                            <li>Calories</li>
+                                            <li>Proteins</li>
+                                            <li>Fats</li>
+                                            <li>Carbohydrates</li>
+                                        </div>
+                                        <div class="nl2">
+                                            <li>8 Ounces</li>
+                                            <li>159 mg</li>
+                                            <li>2 kcal</li>
+                                            <li>0 g</li>
+                                            <li>0 g</li>
+                                            <li>0 g</li>
+                                        </div>
+                                    </div>
                                 </div>
-                                <button class="button btn3">Click me for video tutorial</button>
+                                
                             </div>
                                 
                             <div id="americano-div">
                                 <label class="chart-label">Americano</label>
                                 <div class="buttons-container">
-                                    <button class="button btn1">Content Chart</button>
-                                    <button class="button btn2">Recipe Instructions</button>
-                                    <button class="button btn3">Nutritional Facts</button>
+                                    <button class="button chartbtn3">Chart</button>
+                                    <button class="button recipebtn3">Recipe</button>
+                                    <button class="button factsbtn3">Nutritional Facts</button>
                                 </div>
                                 <div class="americano-chart chartdiv" id="chart-americano"></div>
-                                <div class="recipe">
-                                    <ul class="recipelist">
-                                        <li>Grind freshly roasted coffee beans (14 to 22 grams in the holder)</li>
-                                        <li>Form a dense and smooth coffee tablet. Remove coffee particles from the surface of the holder and set it in
-                                            the expresso machine</li>
-                                        <li>Start the brewing process and pour 25 ml (1 fl oz) of the drink in each cup. The pouring time depends on
-                                            various factors (~18 seconds)</li>
-                                        <li>Serve the expresso in a small, preheated (but dry) cup with a glass of water</li>
-                                    </ul>
-                                </div>
-                                <div class="nutrition">
-                                    <ul>
-                                        <li>Volume </li>
-                                        <li>Caffiene</li>
-                                        <li>Calories</li>
-                                        <li>Proteins</li>
-                                        <li>Fats</li>
-                                        <li>Carbohydrates</li>
-                                    </ul>
-                                    <ul>
-                                        <li>30 L</li>
-                                        <li>75 mg</li>
-                                        <li>0 kcal</li>
-                                        <li>0 g</li>
-                                        <li>0 g</li>
-                                        <li>0 g</li>
-                                    </ul>
-                                </div>
+                                <div class="americano-recipe recipe">
+                                    <div class="slider">
+                                        <a href="#slide-8">1</a>
+                                        <a href="#slide-9">2</a>
+                                        <a href="#slide-10">3</a>
+                                        <div class="slides recipelist">
+                                            <div id="slide-8">Pour 50 ml (2 fl oz) boiling water into the cup</div>
+                                            <div id="slide-9">Add a couple espresso (See 'Espresso')</div>
+                                            <div id="slide-10">Your Americano is ready!</div>
+                                        </div>
+                                    </div>
+                                    <!-- <button class="button btn3">Video Tutorial</button> -->
 
-                                <button class="button btn3">Click me for video tutorial</button>
+                                </div>
+                                <div class="americano-nutrition nutrition">
+                                    <div class="nutrtion-list">
+                                        <div class="nl1">
+                                            <li>Volume </li>
+                                            <li>Caffiene</li>
+                                            <li>Calories</li>
+                                            <li>Proteins</li>
+                                            <li>Fats</li>
+                                            <li>Carbohydrates</li>
+                                        </div>
+                                        <div class="nl2">
+                                            <li>120 ml</li>
+                                            <li>150 mg</li>
+                                            <li>2 kcal</li>
+                                            <li>0 g</li>
+                                            <li>0 g</li>
+                                            <li>0 g</li>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div id="macchiato-div">
-                                <label class="chart-label">Macchiato</label>
+                                <label class="chart-label">Latte Macchiato</label>
                                 <div class="buttons-container">
-                                    <button class="button btn1">Content Chart</button>
-                                    <button class="button btn2">Recipe Instructions</button>
-                                    <button class="button btn3">Nutritional Facts</button>
+                                    <button class="button chartbtn4">Chart</button>
+                                    <button class="button recipebtn4">Recipe</button>
+                                    <button class="button factsbtn4">Nutritional Facts</button>
                                 </div>
                                 <div class="macchiato-chart chartdiv" id="chart-macchiato"></div>
-                                <button class="button btn3">Click me for video tutorial</button>
+                                <div class="macchiato-recipe recipe">
+                                    <div class="slider">
+                                        <a href="#slide-11">1</a>
+                                        <a href="#slide-12">2</a>
+                                        <a href="#slide-13">3</a>
+                                        <a href="#slide-14">4</a>
+                                        <div class="slides recipelist">
+                                            <div id="slide-11">Prepare espresso (See "Espresso")</div>
+                                            <div id="slide-12">Froth 3-4% fat milk well with hot steam. Then stir it to ensure a smooth consistency</div>
+                                            <div id="slide-13">Pour the milk into a glass. Let it rest for a while. Then carefully pour the espresso in.</div>
+                                            <div id="slide-14">Your coffee is ready!</div>
+                                        </div>
+                                        <!-- <button class="button btn3">Video Tutorial</button> -->
+                                    </div>
+                                </div>
+                                <div class="macchiato-nutrition nutrition">
+                                    <div class="nutrtion-list">
+                                        <div class="nl1">
+                                            <li>Volume </li>
+                                            <li>Caffiene</li>
+                                            <li>Calories</li>
+                                            <li>Proteins</li>
+                                            <li>Fats</li>
+                                            <li>Carbohydrates</li>
+                                        </div>
+                                        <div class="nl2">
+                                            <li>180 ml</li>
+                                            <li>75 mg</li>
+                                            <li>50 kcal</li>
+                                            <li>3 g</li>
+                                            <li>2 g</li>
+                                            <li>4 g</li>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div id="cappuccino-div">
                                 <label class="chart-label">Cappuccino</label>
                                 <div class="buttons-container">
-                                    <button class="button btn1">Content Chart</button>
-                                    <button class="button btn2">Recipe Instructions</button>
-                                    <button class="button btn3">Nutritional Facts</button>
+                                    <button class="button chartbtn5">Chart</button>
+                                    <button class="button recipebtn5">Recipe</button>
+                                    <button class="button factsbtn5">Nutritional Facts</button>
                                 </div>
                                 <div class="cappuccino-chart chartdiv" id="chart-cappuccino"></div>
-                                <button class="button btn3">Click me for video tutorial</button>
-
+                                <div class="cappuccino-recipe recipe">
+                                    <div class="slider">
+                                        <a href="#slide-15">1</a>
+                                        <a href="#slide-16">2</a>
+                                        <a href="#slide-17">3</a>
+                                        <a href="#slide-18">4</a>
+                                        <div class="slides recipelist">
+                                            <div id="slide-15">Prepare espresso (See "Espresso")</div>
+                                            <div id="slide-16">Froth 3-4% fat milk well with hot steam. Then stir it to ensure a smooth consistency</div>
+                                            <div id="slide-17">Pour 2 parts frothed milk into the espresso.</div>
+                                            <div id="slide-18">Your Cappuccino is ready!</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cappuccino-nutrition nutrition">
+                                    <div class="nutrtion-list">
+                                        <div class="nl1">
+                                            <li>Volume </li>
+                                            <li>Caffiene</li>
+                                            <li>Calories</li>
+                                            <li>Proteins</li>
+                                            <li>Fats</li>
+                                            <li>Carbohydrates</li>
+                                        </div>
+                                        <div class="nl2">
+                                            <li>120 ml</li>
+                                            <li>75 mg</li>
+                                            <li>40 kcal</li>
+                                            <li>2 g</li>
+                                            <li>2 g</li>
+                                            <li>4 g</li>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div id="flatwhite-div">
                                 <label class="chart-label">Flat White</label>
                                 <div class="buttons-container">
-                                    <button class="button btn1">Content Chart</button>
-                                    <button class="button btn2">Recipe Instructions</button>
-                                    <button class="button btn3">Nutritional Facts</button>
+                                    <button class="button chartbtn6">Chart</button>
+                                    <button class="button recipebtn6">Recipe</button>
+                                    <button class="button factsbtn6">Nutritional Facts</button>
                                 </div>
-                                <div class="flatwhite-chart chartdiv" id="chart-flatwhite"></div>
-                                <button class="button btn3">Click me for video tutorial</button>
+                                <div class="flatwhite-chart chartdiv"></div>
+                                <div class="flatwhite-recipe recipe">
+                                    <div class="slider">
+                                        <a href="#slide-19">1</a>
+                                        <a href="#slide-20">2</a>
+                                        <a href="#slide-21">3</a>
+                                        <a href="#slide-22">4</a>
+                                        <div class="slides recipelist">
+                                            <div id="slide-19">Prepare espresso (See "Espresso")</div>
+                                            <div id="slide-20">Gently froth 3-4% fat milk well with hot steam. Then stir it to ensure a smooth consistency</div>
+                                            <div id="slide-21">Remove the top layer of lighter froth from the pitcher and add remaining "microfoam" to the drink</div>
+                                            <div id="slide-22">Your Flat white is ready!</div>
+                                        </div>
+                                        <!-- <button class="button btn3">Video Tutorial</button> -->
+                                    </div>
+                                </div>
+                                <div class="flatwhite-nutrition nutrition">
+                                    <div class="nutrtion-list">
+                                        <div class="nl1">
+                                            <li>Volume </li>
+                                            <li>Caffiene</li>
+                                            <li>Calories</li>
+                                            <li>Proteins</li>
+                                            <li>Fats</li>
+                                            <li>Carbohydrates</li>
+                                        </div>
+                                        <div class="nl2">
+                                            <li>120 ml</li>
+                                            <li>150 mg</li>
+                                            <li>55 kcal</li>
+                                            <li>3 g</li>
+                                            <li>2 g</li>
+                                            <li>4 g</li>
+                                        </div>
+                                    </div>
+                                </div>
                             
                             </div>
 
                             <div id="cafelatte-div">
                                 <label class="chart-label">Cafe Latte</label>
                                 <div class="buttons-container">
-                                    <button class="button btn1">Content Chart</button>
-                                    <button class="button btn2">Recipe Instructions</button>
-                                    <button class="button btn3">Nutritional Facts</button>
+                                    <button class="button chartbtn7">Chart</button>
+                                    <button class="button recipebtn7">Recipe</button>
+                                    <button class="button factsbtn7">Nutritional Facts</button>
                                 </div>
                                 <div class="cafelatte-chart chartdiv" id="chart-cafelatte"></div>
-                                <button class="button btn3">Click me for video tutorial</button>
+                                <div class="cafelatte-recipe recipe">
+                                    <div class="slider">
+                                        <a href="#slide-23">1</a>
+                                        <a href="#slide-24">2</a>
+                                        <a href="#slide-25">3</a>
+                                        <a href="#slide-26">4</a>
+                                        <div class="slides recipelist">
+                                            <div id="slide-23">Prepare espresso (See "Espresso")</div>
+                                            <div id="slide-24">Gently froth 3-4% fat milk well with hot steam. Then stir it to ensure a smooth consistency</div>
+                                            <div id="slide-25">Pour 4-5 parts milk into the espresso</div>
+                                            <div id="slide-26">Your Latte is ready!</div>
+                                        </div>
+                                        <!-- <button class="button btn3">Video Tutorial</button> -->
+                                    </div>
+                                </div>
+                                <div class="cafelatte-nutrition nutrition">
+                                    <div class="nutrtion-list">
+                                        <div class="nl1">
+                                            <li>Volume </li>
+                                            <li>Caffiene</li>
+                                            <li>Calories</li>
+                                            <li>Proteins</li>
+                                            <li>Fats</li>
+                                            <li>Carbohydrates</li>
+                                        </div>
+                                        <div class="nl2">
+                                            <li>120 ml</li>
+                                            <li>75 mg</li>
+                                            <li>50 kcal</li>
+                                            <li>3 g</li>
+                                            <li>2 g</li>
+                                            <li>4 g</li>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div id="mocha-div">
                                 <label class="chart-label">Mocha</label>
                                 <div class="buttons-container">
-                                    <button class="button btn1">Content Chart</button>
-                                    <button class="button btn2">Recipe Instructions</button>
-                                    <button class="button btn3">Nutritional Facts</button>
+                                    <button class="button chartbtn8">Chart</button>
+                                    <button class="button recipebtn8">Recipe</button>
+                                    <button class="button factsbtn8">Nutritional Facts</button>
                                 </div>
                                 <div class="mocha-chart chartdiv" id="chart-mocha"></div>
-                                <button class="button btn3">Click me for video tutorial</button>
+                                <div class="mocha-recipe recipe">
+                                    <div class="slider">
+                                        <a href="#slide-27">1</a>
+                                        <a href="#slide-28">2</a>
+                                        <a href="#slide-29">3</a>
+                                        <a href="#slide-30">4</a>
+                                        <div class="slides recipelist">
+                                            <div id="slide-27">Melt the chocolate in the milk and mix well, or use chocolate syrup</div>
+                                            <div id="slide-28">Carefully add frothed milk on top of the chocolate (See "Cappuccino")</div>
+                                            <div id="slide-29">Carefully pour the espresso into the milk</div>
+                                            <div id="slide-30">Your drink is ready!</div>
+                                        </div>
+                                        <!-- <button class="button btn3">Video Tutorial</button> -->
+                                    </div>
+                                </div>
+                                <div class="mocha-nutrition nutrition">
+                                    <div class="nutrtion-list">
+                                        <div class="nl1">
+                                            <li>Volume </li>
+                                            <li>Caffiene</li>
+                                            <li>Calories</li>
+                                            <li>Proteins</li>
+                                            <li>Fats</li>
+                                            <li>Carbohydrates</li>
+                                        </div>
+                                        <div class="nl2">
+                                            <li>180 ml</li>
+                                            <li>75 mg</li>
+                                            <li>135 kcal</li>
+                                            <li>5 g</li>
+                                            <li>6 g</li>
+                                            <li>16 g</li>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div id="vienna-div">
                                 <label class="chart-label">Vienna</label>
                                 <div class="buttons-container">
-                                    <button class="button btn1">Content Chart</button>
-                                    <button class="button btn2">Recipe Instructions</button>
-                                    <button class="button btn3">Nutritional Facts</button>
+                                    <button class="button chartbtn9">Chart</button>
+                                    <button class="button recipebtn9">Recipe</button>
+                                    <button class="button factsbtn9">Nutritional Facts</button>
                                 </div>
                                 <div class="vienna-chart chartdiv" id="chart-vienna"></div>
-                                <button class="button btn3">Click me for video tutorial</button>
+                                <div class="vienna-recipe recipe">
+                                    <div class="slider">
+                                        <a href="#slide-31">1</a>
+                                        <a href="#slide-32">2</a>
+                                        <a href="#slide-33">3</a>
+                                        <a href="#slide-34">4</a>
+                                        <div class="slides recipelist">
+                                            <div id="slide-31">Add a bit of vanilla syrup</div>
+                                            <div id="slide-32">Prepare espresso. Pour it into a glass (See "Espresso")</div>
+                                            <div id="slide-33">Add hot water to the drink</div>
+                                            <div id="slide-34">Complete everything with whipped cream! </div>
+                                        </div>
+                                        <!-- <button class="button btn3">Video Tutorial</button> -->
+                                    </div>
+                                </div>
+                                <div class="vienna-nutrition nutrition">
+                                    <div class="nutrtion-list">
+                                        <div class="nl1">
+                                            <li>Volume </li>
+                                            <li>Caffiene</li>
+                                            <li>Calories</li>
+                                            <li>Proteins</li>
+                                            <li>Fats</li>
+                                            <li>Carbohydrates</li>
+                                        </div>
+                                        <div class="nl2">
+                                            <li>180 ml</li>
+                                            <li>150 mg</li>
+                                            <li>84 kcal</li>
+                                            <li>1 g</li>
+                                            <li>8 g</li>
+                                            <li>2 g</li>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                       
                             <div id="afogato-div">
-                                <label class="chart-label">Afogato</label>
+                                <label class="chart-label">Affogato</label>
                                 <div class="buttons-container">
-                                    <button class="button btn1">Content Chart</button>
-                                    <button class="button btn2">Recipe Instructions</button>
-                                    <button class="button btn3">Nutritional Facts</button>
+                                    <button class="button chartbtn10">Chart</button>
+                                    <button class="button recipebtn10">Recipe</button>
+                                    <button class="button factsbtn10">Nutritional Facts</button>
                                 </div>
                                 <div class="affogato-chart chartdiv" id="chart-affogato"></div>
-                                <button class="button btn3">Click me for video tutorial</button>
+                                <div class="affogato-recipe recipe">
+                                    <div class="slider">
+                                        <a href="#slide-35">1</a>
+                                        <a href="#slide-36">2</a>
+                                        <a href="#slide-37">3</a>
+                                        <a href="#slide-38">4</a>
+                                        <div class="slides recipelist">
+                                            <div id="slide-35">Prepare espresso. Pour it into a glass (See "Espresso")</div>
+                                            <div id="slide-36">Scoop 2 small scoops of ice cream (coffee, vanilla, chocolate) in a coffee cup</div>
+                                            <div id="slide-37">Pour espresso over ice cream</div>
+                                            <div id="slide-38">Top with shaved dark chocolate and chopped hazelnuts</div>
+                                        </div>
+                                        <!-- <button class="button btn3">Video Tutorial</button> -->
+                                    </div>
+                                </div>
+                                <div class="affogato-nutrition nutrition">
+                                    <div class="nutrtion-list">
+                                        <div class="nl1">
+                                            <li>Volume </li>
+                                            <li>Caffiene</li>
+                                            <li>Calories</li>
+                                            <li>Proteins</li>
+                                            <li>Fats</li>
+                                            <li>Carbohydrates</li>
+                                        </div>
+                                        <div class="nl2">
+                                            <li>8 oz</li>
+                                            <li>75 mg</li>
+                                            <li>250 kcal</li>
+                                            <li>1 g</li>
+                                            <li>12 g</li>
+                                            <li>27 g</li>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div id="cafeaulait-div">
                                 <label class="chart-label">Cafe Au Lait</label>
                                 <div class="buttons-container">
-                                    <button class="button btn1">Content Chart</button>
-                                    <button class="button btn2">Recipe Instructions</button>
-                                    <button class="button btn3">Nutritional Facts</button>
+                                    <button class="button chartbtn11">Chart</button>
+                                    <button class="button recipebtn11">Recipe</button>
+                                    <button class="button factsbtn11">Nutritional Facts</button>
                                 </div>
                                 <div class="cafeaulait-chart chartdiv" id="chart-cafeaulait"></div>
-                                <button class="button btn3">Click me for video tutorial</button>
+                                <div class="cafeaulait-recipe recipe">
+                                    <div class="slider">
+                                        <a href="#slide-39">1</a>
+                                        <a href="#slide-40">2</a>
+                                        <a href="#slide-41">3</a>
+                                        <div class="slides recipelist">
+                                            <div id="slide-39">Brew coffee. Grind coffee (or use pre-ground coffee) and brew in a coffee machine.</div>
+                                            <div id="slide-40">Froth milk. There are a few ways to froth milk at home if you don’t have an espresso machine. The two best ways are touse a French press or an electric milk frother.</div>
+                                            <div id="slide-41">Pour coffee until it reaches 1/2 the cup and then fill cup with frothed milk.</div>
+                                        </div>
+                                        <!-- <button class="button btn3">Video Tutorial</button> -->
+                                    </div>
+                                </div>
+                                <div class="cafeaulait-nutrition nutrition">
+                                    <div class="nutrtion-list">
+                                        <div class="nl1">
+                                            <li>Volume </li>
+                                            <li>Caffiene</li>
+                                            <li>Calories</li>
+                                            <li>Proteins</li>
+                                            <li>Fats</li>
+                                            <li>Carbohydrates</li>
+                                        </div>
+                                        <div class="nl2">
+                                            <li>180 ml</li>
+                                            <li>50 mg</li>
+                                            <li>100 kcal</li>
+                                            <li>5 g</li>
+                                            <li>5 g</li>
+                                            <li>8 g</li>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
      
                             <div id="coldbrew-div">
                                 <label class="chart-label">Cold Brew</label>
                                 <div class="buttons-container">
-                                    <button class="button btn1">Content Chart</button>
-                                    <button class="button btn2">Recipe Instructions</button>
-                                    <button class="button btn3">Nutritional Facts</button>
+                                    <button class="button chartbtn12">Chart</button>
+                                    <button class="button recipebtn12">Recipe</button>
+                                    <button class="button factsbtn12">Nutritional Facts</button>
                                 </div>
                                 <div class="coldbrew-chart chartdiv" id="chart-coldbrew"></div>
-                                <button class="button btn3">Click me for video tutorial</button>
+                            <div class="coldbrew-recipe recipe">
+                                <div class="slider">
+                                    <a href="#slide-42">1</a>
+                                    <a href="#slide-43">2</a>
+                                    <div class="slides recipelist">
+                                        <div id="slide-42">In a jar, stir together coffee and 1 1/2 cups cold water. Cover and let rest at room temperature overnight or 12 hours</div>
+                                        <div id="slide-43">Strain twice through a coffee filter, a fine-mesh sieve or a sieve lined with cheesecloth. In a tall glass filled with ice, mix equal parts coffee concentrate and water, or to taste. If desired, add milk.</div>
+                                    </div>
+                                    <!-- <button class="button btn3">Video Tutorial</button> -->
+                                </div>
                             </div>
-
+                            <div class="coldbrew-nutrition nutrition">
+                                <div class="nutrtion-list">
+                                    <div class="nl1">
+                                        <li>Volume </li>
+                                        <li>Caffiene</li>
+                                        <li>Calories</li>
+                                        <li>Proteins</li>
+                                        <li>Fats</li>
+                                        <li>Carbohydrates</li>
+                                    </div>
+                                    <div class="nl2">
+                                        <li>11 oz</li>
+                                        <li>210 mg</li>
+                                        <li>15 kcal</li>
+                                        <li>1 g</li>
+                                        <li>0 g</li>
+                                        <li>3 g</li>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
                         </div>
 
 
                         <div>
+                            <div id="coffeecup" onclick="coffeepuns()">
+                            <div class="coffee">
+                                <p id="list"></p>
+                            </div>
+                            <div class="clickme" id="espresso-clickme">Click Me!</div>
+                            </div>
                             <nav id="nav-link-coffee-info-container">
                                 <div id="nav-container-coffee-types">
                                     <a class="nav-link-coffee-info"><img id="espresso-button" class="icon-image" src="./src/resources/icons/1.png"></i></a>
@@ -458,8 +756,6 @@
                                     <a class="nav-link-coffee-info"><img id="macchiato-button" class="icon-image" src="./src/resources/icons/4.png"></i></a>
                                     <span id="popup" class="macchiato-popup">Macchiato</span>
                                 </div>
-  
-                               
                                 <div id="nav-container-coffee-types">
                                     <a class="nav-link-coffee-info"><img id="cappucino-button" class="icon-image" src="./src/resources/icons/5.png"></i></a>
                                     <span id="popup" class="cappucino-popup">Cappucino</span>
@@ -499,14 +795,21 @@
                 
             </body>
         </div>
+
+        <script>
+            function Scrolldown() {
+            document.getElementsByClassName('types-coffee')[0].scroll(0, 1);
+            }
+            window.onload = Scrolldown;
+        </script>
+
         
-        <!-- <script src='./src/scripts/header.js'></script> -->
         <script src='./src/scripts/sidenavbar.js'></script>
         <script src='./src/scripts/scroll.js'></script>
-        <script src='./src/scripts/speech_bubble.js'></script>
         <script src='./src/scripts/graph.js'></script>
         <script src='./src/scripts/flip.js'></script>
         <script src='./src/scripts/button.js'></script>
+        <script src='./src/scripts/coffeecup.js'></script>
  
 </html>
 

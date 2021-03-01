@@ -1,11 +1,12 @@
 
+
 document.getElementsByClassName('types-coffee')[0].addEventListener('scroll', () => {
     if (!document.getElementsByClassName('types-coffee')[0].scrollTop) {
         return
     }
 
     if (
-        (document.getElementsByClassName('types-coffee')[0].scrollTop) >= 0 &&
+        (document.getElementsByClassName('types-coffee')[0].scrollTop) > 0 &&
         (document.getElementsByClassName('types-coffee')[0].scrollTop < 211)) {
         document.getElementById('expresso-div').style.display = 'block'
     } else {

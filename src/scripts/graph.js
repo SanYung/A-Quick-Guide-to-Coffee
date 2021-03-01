@@ -172,6 +172,7 @@ chart.legend.markers.template.width = 40;
 chart.legend.markers.template.height = 40;
 marker4.cornerRadius(20, 20, 20, 20);
 
+
 //Cappuccino
 am4core.useTheme(am4themes_moonrisekingdom);
 am4core.useTheme(am4themes_animated);
@@ -193,7 +194,7 @@ chart.data = [{
 {
     "name": "Espresso",
     "value": 33.33
-}
+},
 ];
 
 var series = chart.series.push(new am4charts.PictorialStackedSeries());
@@ -219,6 +220,7 @@ let marker5 = chart.legend.markers.template.children.getIndex(0);
 chart.legend.markers.template.width = 40;
 chart.legend.markers.template.height = 40;
 marker5.cornerRadius(20, 20, 20, 20);
+
 
 //Flat White
 am4core.useTheme(am4themes_moonrisekingdom);
