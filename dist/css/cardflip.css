@@ -1,0 +1,124 @@
+
+.coffee-titles{
+	font-weight: bolder;
+	font-size: 30px;
+	border: 1px solid black;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top:50px;
+	padding-bottom:30px;
+	width:275px;
+	-webkit-transition: transform 0.6s;
+  	transform-style: preserve-3d;
+  	transition: 0.5s;
+  	-webkit-transition: transform 0.6s;
+}
+
+
+.card-front,
+.card-back{
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  height: 100%;
+  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  /* letter-spacing: 0ch; */
+  font-weight: bolder;
+  text-align: center;
+  color: black;
+  width:250px;
+  margin-left:10px;
+  margin-right:10px;
+  height: 220px;
+  margin-top: -210px;
+	font-size: 13px;
+
+
+}
+
+.espresso-card.flip {
+  /* background-image: url("../../src/resources/coffee/1.png"); */
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  color:black;
+  
+}
+
+.redeye-card.flip {
+   /* background-image: url("../../src/resources/coffee/2.png"); */
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.americano-card.flip {
+   /* background-image: url("../../src/resources/coffee/3.png"); */
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.macchiato-card.flip {
+   /* background-image: url("../../src/resources/coffee/4.png"); */
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.cappuccino-card.flip {
+   /* background-image: url("../../src/resources/coffee/5.png"); */
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.flatwhite-card.flip {
+   /* background-image: url("../../src/resources/coffee/6.png"); */
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.cafelatte-card.flip {
+   /* background-image: url("../../src/resources/coffee/7.png"); */
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.mocha-card.flip {
+   /* background-image: url("../../src/resources/coffee/8.png"); */
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.vienna-card.flip { 
+  /* background-image: url("../../src/resources/coffee/9.png"); */
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+
+.affogato-card.flip {
+   /* background-image: url("../../src/resources/coffee/10.png"); */
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.cafeaulait-card.flip {
+   /* background-image: url("../../src/resources/coffee/11.png"); */
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.coldbrew-card.flip {
+   /* background-image: url("../../src/resources/coffee/12.png"); */
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
