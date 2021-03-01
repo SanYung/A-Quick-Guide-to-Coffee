@@ -1,5 +1,5 @@
 # A Quick Guide To Coffee
-<img src=".src/resources/readme.png">
+<img src="https://github.com/SanYung/A-Quick-Guide-to-Coffee/blob/master/src/resources/readme.png" width="1000>
 
 ## Table of contents
 * Background and overview
