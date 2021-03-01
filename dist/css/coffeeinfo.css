@@ -26,6 +26,10 @@
 	cursor: pointer;
 }
 
+.icon-image:hover{
+  cursor: pointer;
+}
+
 #coffee-pics{
 	width: 150px;
 	height: auto;

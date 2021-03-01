@@ -24,6 +24,11 @@ h1{
   cursor: pointer;
 
 }
+
+#coffeecup:hover{
+  cursor: pointer;
+}
+
 #list{
   z-index: -3;
   margin-top:3em;
