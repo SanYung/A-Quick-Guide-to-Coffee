@@ -1,4 +1,4 @@
-# UC College Town Facts
+# A Quick Guide To Coffee
 <img src=".src/resources/readme.png">
 
 ## Table of contents
